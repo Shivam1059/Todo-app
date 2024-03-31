@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 30px;
+  padding: 25px;
+  justify-content: center;
+  display: flex;
+}
+
+.cantener{
+  padding: 23px;
+  margin: 10px;
+
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, rgb(26, 109, 243) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+
+  height: 460px;
+  width: 300px;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: auto;
+  box-shadow: 16px 10px 16px 16px rgb(197, 198, 238);
+}
+
+h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color:white;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 9px;
+}
+
+input{
+  height: 25px;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 4px;
+  margin: 2px;
+  margin-left: 2px;
+}
+.top{
+  height: 35px;
+   width: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  margin:2px;
+font-size: 0.79rem;
+font-weight: 500;
+background-color: rgb(20, 240, 61);
+color: white;
+}
+.delete{
+    
+  margin: 2px;
+  padding: 2px;
+ display: flex;
+ margin-inline-start: 30px;
+ background-color: rgb(241, 109, 137);
+ color: white;
+
+}
+
+li{
+  border: 2px solid rgb(20, 19, 19);
+  padding: 2px;
+  margin: 2px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  
+}
